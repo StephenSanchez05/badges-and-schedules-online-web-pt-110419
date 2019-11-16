@@ -7,6 +7,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speakers)
+<<<<<<< HEAD
  empty_array = []
  speakers.each do |person|
  empty_array.push("Hello, my name is #{person}.")
@@ -31,3 +32,9 @@ def printer(speakers)
     puts assignments
   end
 end
+=======
+ speakers.each do |person|
+ puts "Hello, my name is #{person}."
+   end
+ end
+>>>>>>> 06736f14c25c2f7550974999189498cf91767c70
